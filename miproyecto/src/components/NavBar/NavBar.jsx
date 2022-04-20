@@ -6,12 +6,10 @@ function NavBar(props) {
     return (
 
         <div class="navBar">
-
-            <div id="navDiv">
-
-                <h3>Tienda Baltazar</h3>
+      
+            <div class="navBarItems">
                 
-                {/* <CartWidget /> */}
+                <h3>Mi Tienda</h3>
 
                 <ul>
                     <li><a href="#">Inicio</a></li>
@@ -19,6 +17,8 @@ function NavBar(props) {
                     <li><a href="#">Promociones</a></li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
+
+                <CartWidget />
             </div>
         </div>
     );

@@ -1,0 +1,21 @@
+
+#cart {
+  float: right;
+  padding: 0.5rem 1rem;
+    max-height: 80px;
+    max-width: 80px;
+  }
+
+  #Btncart {
+    float: right;
+    padding: 0.5rem ;
+      max-height: 80px;
+      max-width: 80px;
+    }
+
+  .btn-google {
+    /* Since your button is a block button, otherwise use inline-flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

@@ -1,11 +1,23 @@
 import React from 'react';
-import './index.css'
+import './CartWidget.css'
+import { BsCart2 } from "react-icons/bs";
+import Cart from './cart.ico'
+
 
 const CartWidget = () => {
     return (
-        <div>
-            <img class="logo" src="https://www.kindpng.com/picc/m/177-1771804_download-shopping-cart-icon-icono-carro-de-compras.png" />
-        </div>
+        <>
+        {/* <button type="button" id="Btncart" > */}
+            <img src={Cart} id="cart" />
+        {/* </button> */}
+           {/* <button type="button" 
+                class="btn btn-default btn-sm">
+                <span class="glyphicon 
+                    glyphicon-shopping-cart">
+                </span>
+                <b> Add to Cart </b>
+            </button> */}
+        </>
     );
 };
 
