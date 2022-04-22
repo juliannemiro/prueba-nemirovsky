@@ -5,9 +5,9 @@ import './NavBar.css'
 function NavBar(props) {
     return (
 
-        <div class="navBar">
+        <div className="navBar">
       
-            <div class="navBarItems">
+            <div className="navBarItems">
                 
                 <h3>Mi Tienda</h3>
 
