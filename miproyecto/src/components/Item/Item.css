@@ -1,0 +1,25 @@
+.card {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+.header, .footer, .content {
+    width: 100%;
+}
+
+  img {
+    width: 100%;
+  }
+  div.contenedor {
+   text-align: center;
+    padding: 10px 20px; 
+  }
+  #container{
+    display:inline-block;
+        margin: 0 auto;
+  }
+  
