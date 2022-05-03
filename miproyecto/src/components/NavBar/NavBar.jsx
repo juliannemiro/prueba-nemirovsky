@@ -9,13 +9,13 @@ function NavBar(props) {
       
             <div className="navBarItems">
                 
-                <h3>Mi Tienda</h3>
+                <h3>Todo Camisetas</h3>
 
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Promociones</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="../">Inicio</a></li>
+                    <li><a href="../">Nacionales</a></li>
+                    <li><a href="../">Internacionales</a></li>
+                    <li><a href="../">Selecciones</a></li>
                 </ul>
 
                 <CartWidget />

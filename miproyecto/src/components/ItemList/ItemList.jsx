@@ -7,14 +7,16 @@ const ItemList = ({ productos }) => {
         <>
             {productos?.map((producto) => {
                 return <Item key={producto.id}
+                    id={producto.id}
+                    categoria={producto.categoria}
+                    nombre={producto.nombre}
+                    descripcion={producto.descripcion}
                     imagen={producto.imagen}
-                    destino={producto.destino}
-                    duracion={producto.duracion}
-                    hotelEstrellas={producto.hotelEstrellas}
+                    stock={producto.stock}
                     precio={producto.precio}
-                    traslado={producto.traslado}
                 />;
             })}
+
         </>
     )
 };
