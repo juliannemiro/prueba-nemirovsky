@@ -13,11 +13,7 @@ function App() {
         <Route path='/' element={<ItemListContainer />} />       
         <Route path='/categoria/:idCategoria' element={<ItemListContainer />} />
         <Route path='/item/:id' element={<ItemListDetailContainer />} />
-    
-        {/* se recibe const {categoryId} = useParam() */}
-
       </Routes>
-
     </div>
   );
 }

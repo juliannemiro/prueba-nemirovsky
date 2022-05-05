@@ -1,6 +1,8 @@
 import React from 'react';
 import CartWidget from '../CartWidget';
 import './NavBar.css'
+import { Link, NavLink } from 'react-router-dom';
+import Logo from '../Logo/index';
 
 function NavBar(props) {
     return (
@@ -8,16 +10,13 @@ function NavBar(props) {
         <div className="navBar">
       
             <div className="navBarItems">
-                
-                <h3>Todo Camisetas</h3>
-
+            <Logo />
                 <ul>
-                    <li><a href="../">Inicio</a></li>
-                    <li><a href="../">Nacionales</a></li>
-                    <li><a href="../">Internacionales</a></li>
-                    <li><a href="../">Selecciones</a></li>
+                <li><NavLink to="/" className={nav => nav.isActive ? 'nav-activo' : ''}>Inicio</NavLink></li>
+                    <li><NavLink to="/categoria/nacional" className={nav => nav.isActive ? 'nav-activo' : ''}>Nacionales</NavLink></li>
+                    <li><NavLink to="/categoria/internacional" className={nav => nav.isActive ? 'nav-activo' : ''}>Internacionales</NavLink></li>
+                    <li><NavLink to="/categoria/seleccion" className={nav => nav.isActive ? 'nav-activo' : ''}>Selecciones</NavLink></li>
                 </ul>
-
                 <CartWidget />
             </div>
         </div>
