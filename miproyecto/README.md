@@ -2,33 +2,19 @@
 Proyecto e-commerce en progreso desarrollado en **React JS** 
 
 ## Instalación Git Clone
-Otra manera de acceder al proyecto es clonarlo, ejecutando en la consola:
+Abrir la consola en la carpeta que desea descargar el proyecto. Una vez allí dentro, ingresar los siguientes comandos
 
-```
-git clone https://github.com/juliannemiro/prueba-nemirovsky.git
-```
-
-Y ejecutar como en la manera anterior:
-
-```
-npm install
---------------
-npm start
-```
-
+- Git clone https://github.com/juliannemiro/prueba-nemirovsky.git
+- npm install
+- npm start
 
 ## Dependencias del Proyecto
-- axios
-- react-icons
-- react-router-dom
+- react-router-dom: 6.3.0
+- bootstrap: 5.1.3
 
 ## Desarrollado con
 - React
-
 - JavaScript
-
-- Boostrap
-
 - CSS
 
 ## Clothy! Demo 
