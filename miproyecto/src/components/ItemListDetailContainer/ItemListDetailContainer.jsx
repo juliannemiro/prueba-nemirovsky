@@ -97,8 +97,10 @@ function getItemDetalle(id) {
                 stock: 8,
                 precio: '$11.999',
             }
+       
         ];
         const item = itemList.filter(item => item.id === parseInt(id));
+
         setTimeout(() => {
             resolve(item[0]);
         }, 2000)

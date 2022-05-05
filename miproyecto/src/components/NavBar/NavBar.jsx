@@ -10,7 +10,9 @@ function NavBar(props) {
         <div className="navBar">
       
             <div className="navBarItems">
+            <Link to="/" >
             <Logo />
+            </Link>
                 <ul>
                 <li><NavLink to="/" className={nav => nav.isActive ? 'nav-activo' : ''}>Inicio</NavLink></li>
                     <li><NavLink to="/categoria/nacional" className={nav => nav.isActive ? 'nav-activo' : ''}>Nacionales</NavLink></li>
