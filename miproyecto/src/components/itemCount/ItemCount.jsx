@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./ItemCount.css"
 
-const ItemCount = ({ stock, inicial }) => {
+const ItemCount = ({ stock, inicial, onAdd }) => {
 
     const [count, setCount] = useState(inicial);
 
@@ -24,9 +24,9 @@ const ItemCount = ({ stock, inicial }) => {
             <button onClick={() => sumarItem()} class="btn btn-light"> + </button><br /><br />
           
            {count > 0 &&
-                <button onClick={() => alert("Disculpe, estamos trabajando")} class="btn btn-info"> Agragar al carrito </button>
+                <button onClick={() => (stock >= count) && onAdd(count)}  class="btn btn-info"> Agragar al carrito </button>
             } {count === 0 && 
-                <button class="btn btn-secondary disable" > Agragar al carrito </button> // le cambie a estilo secondary para que se note mas la diferencia
+                <button class="btn btn-secondary disable" > Agragar al carrito </button>  // le cambie a estilo secondary para que se note mas la diferencia
             }
         </div>
     );
