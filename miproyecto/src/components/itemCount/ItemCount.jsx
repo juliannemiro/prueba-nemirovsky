@@ -20,12 +20,12 @@ const ItemCount = ({ stock, inicial, onAdd }) => {
     return (
         <div className='itemCount'>
             <button onClick={() => restarItem()} class="btn btn-light"> - </button>
-            <input  className='contador' type="text" value={count} />   
+            <input className='contador' type="text" value={count} />
             <button onClick={() => sumarItem()} class="btn btn-light"> + </button><br /><br />
-          
-           {count > 0 &&
-                <button onClick={() => (stock >= count) && onAdd(count)}  class="btn btn-info"> Agragar al carrito </button>
-            } {count === 0 && 
+
+            {count > 0 &&
+                <button onClick={() => (stock >= count) && onAdd(count)} class="btn btn-info"> Agragar al carrito </button>
+            } {count === 0 &&
                 <button class="btn btn-secondary disable" > Agragar al carrito </button>  // le cambie a estilo secondary para que se note mas la diferencia
             }
         </div>
