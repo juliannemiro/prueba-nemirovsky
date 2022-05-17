@@ -28,7 +28,7 @@ const ItemDetail = ({ itemDetalle }) => {
 
             <div className="itemDetalleContainer">
 
-                <h2>{itemDetalle?.nombre}</h2>
+                <h2>{itemDetalle?.nombre}</h2><br />
                 <h4>{itemDetalle?.descripcion} </h4>
 
                 <br />
@@ -38,7 +38,11 @@ const ItemDetail = ({ itemDetalle }) => {
                 <br />
                 {
                     cantidadProducto ?
-                        <button class="btn btn-info"><Link to='/cart'>Finalizar compra ({cantidadProducto} productos)</Link></button>
+                        <>
+                            <button class="btn btn-outline-info"><Link to='/'>Seguir comprando </Link></button>
+                            <br/>
+                            <button class="btn btn-outline-info"><Link to='/cart'>Finalizar compra </Link></button>
+                        </>
                         :
                         <>
                             <select class="form-select " style={{ "width": "100px" }} placeholder="Talle" >

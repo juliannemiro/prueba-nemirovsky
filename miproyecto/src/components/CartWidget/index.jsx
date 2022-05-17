@@ -1,14 +1,20 @@
 import React from 'react';
 import './CartWidget.css'
-import { BsCart2 } from "react-icons/bs";
 import Cart from './cart.ico'
+import { useCartContext } from '../../Context/CartContexProvider';
 
 
 const CartWidget = () => {
+    const { totalAcumItem } = useCartContext();
     return (
-        <>
-            <img src={Cart} id="cart" />
-        </>
+        <div className='cartContainer'>
+            {totalAcumItem() > 0 &&
+                <>
+                    <img src={Cart} id="cart" />
+                    <span className='acumItems'>{totalAcumItem()}</span>
+                </>
+            }
+        </div>
     );
 };
 

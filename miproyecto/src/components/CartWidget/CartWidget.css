@@ -1,21 +1,26 @@
-
 #cart {
   float: right;
   padding: 0.5rem 1rem;
-    max-height: 80px;
-    max-width: 80px;
-  }
+  max-height: 80px;
+  max-width: 80px;
+}
 
-  #Btncart {
-    float: right;
-    padding: 0.5rem ;
-      max-height: 80px;
-      max-width: 80px;
-    }
+#Btncart {
+  float: right;
+  padding: 0.5rem;
+  max-height: 80px;
+  max-width: 80px;
+}
 
-  .btn-google {
-    /* Since your button is a block button, otherwise use inline-flex */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.acumItems {
+  text-decoration: none;
+  color: blue;
+  font-size: large;
+  order: 2;
+  justify-content:end;
+}
+
+.cartContainer{
+  display: flex;
+  
+}

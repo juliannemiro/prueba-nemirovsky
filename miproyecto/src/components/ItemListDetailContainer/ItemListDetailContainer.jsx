@@ -14,7 +14,7 @@ function getItemDetalle(id) {
                 descripcion: 'Camiseta principal - Temporada 2022',
                 imagen: 'https://cdn.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/c/a/camiseta-de-river-adidas-oficial-blanca-100020fq7660001-_3_1.jpg',
                 stock: 4,
-                precio: '$12.000',
+                precio: '12000',
             },
             {
                 id: 2,
@@ -23,7 +23,7 @@ function getItemDetalle(id) {
                 descripcion: 'Camiseta principal - Temporada 2022',
                 imagen: 'https://cdn.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/c/a/camiseta-de-boca-adidas-oficial-azul-24965351-100020gu1883001-1.jpg',
                 stock: 3,
-                precio: '$12.000',
+                precio: '12000',
             },
             {
                 id: 3,
@@ -32,7 +32,7 @@ function getItemDetalle(id) {
                 descripcion: 'Camiseta principal - Temporada 2022',
                 imagen: 'https://http2.mlstatic.com/D_NQ_NP_794837-MLA49502113546_032022-O.webp',
                 stock: 1,
-                precio: '$8.000',
+                precio: '8000',
             },
             {
                 id: 4,
@@ -41,7 +41,7 @@ function getItemDetalle(id) {
                 descripcion: 'Camiseta principal - Temporada 2022',
                 imagen: 'https://cdn.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/c/a/camiseta-de-racing-kappa-oficial-blanca-85569411-3950235165zw801-1.jpg',
                 stock: 3,
-                precio: '$9.000',
+                precio: '9000',
             },
             {
                 id: 5,
@@ -50,7 +50,7 @@ function getItemDetalle(id) {
                 descripcion: 'Camiseta principal - Temporada 2022',
                 imagen: 'https://cdn.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/c/a/camiseta-napoli-kappa-alternativa-blanca-395023119ziw05e-1.jpg',
                 stock: 8,
-                precio: '$13.500',
+                precio: '13500',
             },
             {
                 id: 6,
@@ -59,7 +59,7 @@ function getItemDetalle(id) {
                 descripcion: 'Camiseta principal - Temporada 2022',
                 imagen: 'https://cdn.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/c/a/camiseta-barcelona-nike-oficial-standard-azul-510020cd4232456-1.jpg',
                 stock: 5,
-                precio: '$15.000',
+                precio: '15000',
             },
             {
                 id: 7,
@@ -68,7 +68,7 @@ function getItemDetalle(id) {
                 descripcion: 'Camiseta alternativa - Temporada 2022',
                 imagen: 'https://cdn.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/c/a/camiseta-adidas-arsenal-alternativa-amarilla-100020eh5635001-1.jpg',
                 stock: 6,
-                precio: '$13.500',
+                precio: '13500',
             },
             {
                 id: 8,
@@ -77,7 +77,7 @@ function getItemDetalle(id) {
                 descripcion: 'Camiseta alternativa - Mundial 2018',
                 imagen: 'https://cdn.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/c/a/camiseta-colombia-adidas-alternativa-azul-100020fi5295001-1.jpg',
                 stock: 3,
-                precio: '$11.999',
+                precio: '11999',
             },
             {
                 id: 9,
@@ -86,7 +86,7 @@ function getItemDetalle(id) {
                 descripcion: 'Camiseta principal - Mundial 2018',
                 imagen: 'https://cdn.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/c/a/camiseta-de-argentina-adidas-oficial-authentic-blanca-100020dp0225001-1.jpg',
                 stock: 5,
-                precio: '$11.999',
+                precio: '11999',
             },
             {
                 id: 10,
@@ -95,7 +95,7 @@ function getItemDetalle(id) {
                 descripcion: 'Camiseta principal - Mundial 2018',
                 imagen: 'https://cdn.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/c/a/camiseta-alemania-adidas-oficial-blanca-15745389-100020eh6105001-1.jpg',
                 stock: 8,
-                precio: '$11.999',
+                precio: '11999',
             }
        
         ];

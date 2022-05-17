@@ -3,6 +3,7 @@ import './ItemListContainer.css'
 import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom';
 import Spinner from '../Spinner/Spinner';
+import { collection, getDocs, getFirestore, query, where, limit } from 'firebase/firestore';
 
 function getItemDetalle(idCategoria) {
     const myPromise = new Promise((resolve, reject) => {
@@ -122,6 +123,24 @@ const ItemListContainer = () => {
                 setIsLoading(false);
             });
     }, [idCategoria]);
+
+    // useEffect(() => {
+    //     const db = getFirestore();
+    //     const itemCollection = collection(db, 'items');
+
+    //     const q = query(
+    //         itemCollection,
+    //         where('precio','>',10000),
+    //         limit(1)
+    //     )
+
+    //     getDocs(q)
+    //         .then(snapshot => {
+    //             console.log(snapshot.docs.map(doc => {
+    //                 return { ...doc.data(), id: doc.id } // .data() trae los datos, y agrego el id
+    //             }))
+    //         })
+    // }, []);
 
     return (
         <div className='div-item'>
