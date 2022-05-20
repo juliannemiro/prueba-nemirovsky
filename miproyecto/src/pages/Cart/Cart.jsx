@@ -5,7 +5,7 @@ import './Cart.css'
 import { Link } from "react-router-dom";
 
 const Cart = () => {
-    const { cartList, totalAcum } = useCartContext();
+    const { cartList, totalAcum, limpiarCarrito } = useCartContext();
     console.log(cartList)
     return (
         <div>
@@ -17,7 +17,13 @@ const Cart = () => {
                 <>
                     <div className="containerResumen">
                         <h1>Total: ${totalAcum()}</h1>
-                        <button class="btn btn-info">Terminar mi compra</button>
+                    
+                        <div className="confirmar">
+                            <button class="btn btn-info">Terminar mi compra</button>
+                        </div>
+                        <div className="cancelar">
+                            <button class="btn btn-outline-danger" onClick={() => limpiarCarrito()} >Botón de arrepentimiento</button>
+                        </div>
                     </div>
                 </>
                 :

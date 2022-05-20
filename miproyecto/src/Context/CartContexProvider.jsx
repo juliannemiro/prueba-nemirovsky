@@ -24,7 +24,7 @@ const CartContextProvider = ({ children }) => {
     setCartList(cartList.filter((item) => item.id !== id));
   };
 
-  const limpiarCart = () => {
+  const limpiarCarrito = () => {
     setCartList([]);
   };
 
@@ -58,14 +58,13 @@ const CartContextProvider = ({ children }) => {
   };
 
 
-
   return (
     <CartContext.Provider
       value={{
         cartList,
         addToCart,
         deleteItem,
-        limpiarCart,
+        limpiarCarrito,
         isInCart,
         PrecioAcumItem,
         unidadesItem,

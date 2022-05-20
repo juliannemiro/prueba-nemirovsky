@@ -9,3 +9,9 @@
 
 }
 
+
+.containerResumen .cancelar{
+    display: flex;
+    align-items: center;
+    align-self: center
+}

@@ -16,8 +16,8 @@ function NavBar(props) {
                 <ul>
                 <li><NavLink to="/" className={nav => nav.isActive ? 'nav-activo' : ''}>Inicio</NavLink></li>
                     <li><NavLink to="/categoria/nacional" className={nav => nav.isActive ? 'nav-activo' : ''}>Nacionales</NavLink></li>
-                    <li><NavLink to="/categoria/internacional" className={nav => nav.isActive ? 'nav-activo' : ''}>Internacionales</NavLink></li>
                     <li><NavLink to="/categoria/seleccion" className={nav => nav.isActive ? 'nav-activo' : ''}>Selecciones</NavLink></li>
+                    <li><NavLink to="/categoria/retro" className={nav => nav.isActive ? 'nav-activo' : ''}>Retro</NavLink></li>
                 </ul>
                 <Link to="/cart" >
                 <CartWidget />
