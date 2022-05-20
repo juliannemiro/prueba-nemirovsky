@@ -5,7 +5,7 @@ import { useCartContext } from '../../Context/CartContexProvider';
 
 
 const CartWidget = () => {
-    const { unidadesItem, totalAcumItem } = useCartContext();
+    const { totalAcumItem } = useCartContext();
     return (
         <div className='cartContainer'>
             {totalAcumItem() > 0 &&
