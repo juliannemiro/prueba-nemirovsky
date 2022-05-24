@@ -10,7 +10,7 @@
 }
 
 
-.containerResumen .cancelar{
+.btnCancelar{
     display: flex;
     align-items: center;
     align-self: center

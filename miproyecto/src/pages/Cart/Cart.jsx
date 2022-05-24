@@ -17,13 +17,10 @@ const Cart = () => {
                 <>
                     <div className="containerResumen">
                         <h1>Total: ${totalAcum()}</h1>
-                    
-                        <div className="confirmar">
-                            <button class="btn btn-info">Terminar mi compra</button>
-                        </div>
-                        <div className="cancelar">
-                            <button class="btn btn-outline-danger" onClick={() => limpiarCarrito()} >Botón de arrepentimiento</button>
-                        </div>
+
+                        <button class="btn btn-info"><Link to='/formCompra'>Realizar comprar</Link></button> <br/>
+                        <button class="btn btn-outline-danger" className="btnCancelar" onClick={() => limpiarCarrito()} >Botón de arrepentimiento</button>
+
                     </div>
                 </>
                 :
