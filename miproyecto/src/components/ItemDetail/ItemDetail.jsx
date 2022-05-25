@@ -39,13 +39,13 @@ const ItemDetail = ({ itemDetalle }) => {
                 {
                     cantidadProducto ?
                         <>
-                            <button class="btn btn-outline-info"><Link to='/'>Seguir comprando </Link></button>
+                            <button className="btn btn-outline-info"><Link to='/'>Seguir comprando </Link></button>
                             <br/>
-                            <button class="btn btn-outline-info"><Link to='/cart'>Finalizar compra </Link></button>
+                            <button className="btn btn-outline-info"><Link to='/cart'>Finalizar compra </Link></button>
                         </>
                         :
                         <>
-                            <select class="form-select " style={{ "width": "100px" }} placeholder="Talle" >
+                            <select className="form-select " style={{ "width": "100px" }} placeholder="Talle" >
                                 <option> Talle</option>
                                 <option value="1">XS</option>
                                 <option value="2">S</option>

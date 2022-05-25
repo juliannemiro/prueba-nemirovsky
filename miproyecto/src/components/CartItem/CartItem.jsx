@@ -24,7 +24,7 @@ const CartItem = ({ item }) => {
                 ${PrecioAcumItem(item?.id)}
             </div>
             <div className='cartAcciones'>
-                <button class="btn btn-outline-danger" onClick={() => deleteItem(item.id) } >Eliminar</button>
+                <button className="btn btn-outline-danger" onClick={() => deleteItem(item.id) } >Eliminar</button>
             </div>
         </section>
     );
