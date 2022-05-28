@@ -33,12 +33,12 @@ const ItemDetailContainer = () => {
     }, [id]);
 
     return (
-        <div className='itemDetailContainer' >
+        <>
             {isLoading && <Spinner />}
             {isLoading === false &&
                 <ItemDetail itemDetalle={itemDetalle} />
             }
-        </div>
+        </>
     );
 }
 

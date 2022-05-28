@@ -14,7 +14,7 @@
 
 .acumItems {
   text-decoration: none;
-  color: blue;
+  color: black;
   font-size: large;
   order: 2;
   justify-content:end;
@@ -24,3 +24,4 @@
   display: flex;
   
 }
+

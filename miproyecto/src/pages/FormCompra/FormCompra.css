@@ -1,0 +1,10 @@
+
+.formContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainer h1, h2, h3, h4, hr {
+    color: #D7DBDD;
+}

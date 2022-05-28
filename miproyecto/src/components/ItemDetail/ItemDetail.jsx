@@ -21,12 +21,12 @@ const ItemDetail = ({ itemDetalle }) => {
     }
 
     return (
-        <>
+        <div className="itemDetailContainer">
             <div className="itemImagenContainer">
-                <img src={itemDetalle?.imagen} alt="productos" />
+                <img src={itemDetalle?.imagen} id="#producto" alt="productos" />
             </div>
 
-            <div className="itemDetalleContainer">
+            <div className="itemBodyContainer">
 
                 <h2>{itemDetalle?.nombre}</h2><br />
                 <h4>{itemDetalle?.descripcion} </h4>
@@ -39,9 +39,9 @@ const ItemDetail = ({ itemDetalle }) => {
                 {
                     cantidadProducto ?
                         <>
-                            <button className="btn btn-outline-info"><Link to='/'>Seguir comprando </Link></button>
-                            <br/>
-                            <button className="btn btn-outline-info"><Link to='/cart'>Finalizar compra </Link></button>
+                            <Link to='/'><button className="btn btn-outline-success">Seguir comprando</button> </Link>
+                            <br />
+                            <Link to='/cart'><button className="btn btn-outline-success">Finalizar compra</button>  </Link>
                         </>
                         :
                         <>
@@ -60,7 +60,7 @@ const ItemDetail = ({ itemDetalle }) => {
                 }
 
             </div>
-        </>
+        </div>
     );
 }
 

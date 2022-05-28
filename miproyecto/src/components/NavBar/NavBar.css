@@ -5,7 +5,7 @@ body {
 
 
 .navBar {
-    background-color: rgb(189, 189, 189);
+    background-color: #28B463;
     height: 70px;
     width: 100%;
 }
@@ -27,11 +27,9 @@ body {
     align-items: center;
     justify-content: center;
     padding: 0.5rem 1rem;
-    color: #1866B5;
+    color: black;
     font-weight: bold;
 }
-
-
 
 .navBarItems ul {
     padding: 0px;
@@ -42,7 +40,7 @@ body {
 }
 
 .navBarItems ul a:hover {
-    color: #3399FF;
+    color: black;
     font-weight: bold
 }
 
@@ -56,8 +54,8 @@ body {
 }
 
 .navBar li a {
-    color: black;
-    font-size: 16px;
+    color: #D7DBDD;
+    font-size: 18px;
     text-decoration: none;
     line-height: 70px;
     padding: 5px 15px;
@@ -65,5 +63,5 @@ body {
 
 .nav-activo {
     font-weight: bold;
-    color: #3399FF;
+    color: #D7DBDD;
 }

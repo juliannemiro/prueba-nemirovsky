@@ -10,9 +10,14 @@ const Item = ({ id, nombre, imagen, descripcion, precio }) => {
             <div className="card-header"><h4>{nombre}</h4> </div>
             <div className="card-body">
                 <Link to={'/item/' + id}>
-                    <img src={imagen} width="200" height="200" />
+                    <img src={imagen} alt="item" width="200" height="200" />
                 </Link>
-                <ul className="list-group">
+                <h5> {descripcion} </h5>
+                <h6> ${precio} </h6>
+                <Link to={'/item/' + id}>
+                    <button className="btn btn-outline-success btn-sm"> + Info  </button>
+                </Link>
+                {/* <ul className="list-group">
                     <li className="list-group-item"> {descripcion} </li>
                     <li className="list-group-item"> {precio}</li>
                     <li className="list-group-item">
@@ -20,7 +25,7 @@ const Item = ({ id, nombre, imagen, descripcion, precio }) => {
                             <button className="btn btn-outline-info btn-sm"> Mas información  </button>
                         </Link>
                     </li>
-                </ul>
+                </ul> */}
 
             </div>
 
