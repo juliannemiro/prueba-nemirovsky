@@ -109,7 +109,7 @@ const FormCompra = () => {
             <div>
                 {
                     orderID && (
-                        <div class="compraConfirmada">
+                        <div className="compraConfirmada">
                             <h4>¡Enhorabuena, su compra ha sido realizada con éxito!</h4> <br />
                             <h6>{`Su código de compra es: ${orderID}`}</h6><br />
                             <Link to="/"><h5>Volver al catálogo</h5></Link>
@@ -121,7 +121,7 @@ const FormCompra = () => {
             <div>
                 {
                     errorCompra && (
-                        <div class="compraRechazada">
+                        <div className="compraRechazada">
                             ¡Lo sentimos! No hemos podido procesar la operación. Por favor, vuelva a cargar su carrito de compras. <br />
 
                             <Link to="/"><h6>Empezar nuevamente</h6></Link>

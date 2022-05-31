@@ -1,25 +1,18 @@
 .cartSection {
     display: flex;
+    justify-content: space-between;
+    align-content: center;
     padding: 10px;
     margin: 0 auto;
     margin-top: 5px;
-    
-    /*centrar */
-    border: 1px solid #494762;
     background: #f1f2f4;
-    border-radius: 5px;
     width: 50%;
     height: 150px;
 
-    justify-content: space-between;
-    align-content: center;
-
-    /* flex-flow: row wrap /* para que mantengan su tamaño y pasen a segunda linea cuando corresponda */
 }
 
 .cartSection div {
-    border: 0.5px solid grey;
-    
+    border: 1px solid #494762;
 }
 
 .cartDescripcion {
@@ -56,7 +49,6 @@
     flex-grow: 3;
     flex-basis:15%;
     margin: 0 auto;
-    /*centrar */
     order: 1;
     height: 100%;
 

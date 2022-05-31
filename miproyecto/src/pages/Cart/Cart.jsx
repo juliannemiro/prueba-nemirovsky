@@ -8,7 +8,7 @@ const Cart = () => {
     const { cartList, totalAcum, limpiarCarrito } = useCartContext();
 
     return (
-        <div>
+        <div className="CartContainer">
             {cartList.map((item) => (
                 <CartItem key={item.id} item={item} />
             ))}  <br/>
@@ -26,7 +26,7 @@ const Cart = () => {
                 <>
                     <h2>No tienes productos agregados al carrito</h2>
                     <br />
-                    <button className="btn btn-outline-success"><Link to='/'>Comenzar a comprar</Link></button>
+                    <Link to='/'><button className="btn btn-success">Comenzar a comprar</button></Link>
                 </>
             }
         </div>
