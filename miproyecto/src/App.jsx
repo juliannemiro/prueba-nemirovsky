@@ -6,6 +6,7 @@ import ItemListDetailContainer from './components/ItemListDetailContainer/ItemLi
 import Cart from './pages/Cart/Cart';
 import CartContextProvider from "./Context/CartContexProvider";
 import FormCompra from './pages/FormCompra/FormCompra';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
           <Route path='/cart' element={<Cart />} />
           <Route path='/formCompra' element={<FormCompra />} />
         </Routes>
+        <Footer />
       </CartContextProvider>
+
     </div>
   );
 }

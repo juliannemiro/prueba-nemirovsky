@@ -3,6 +3,7 @@ import ItemCount from '../itemCount/ItemCount';
 import './ItemDetail.css';
 import { Link } from 'react-router-dom';
 import { useCartContext } from '../../Context/CartContexProvider';
+import Logo from '../Logo/logo.png'
 
 const ItemDetail = ({ itemDetalle }) => {
     const [cantidadProducto, setCantidadProducto] = useState(null);
@@ -21,21 +22,19 @@ const ItemDetail = ({ itemDetalle }) => {
     }
 
     return (
-        <div className="itemDetailContainer">
+        <div className="itemDetalleContainer">
             <div className="itemImagenContainer">
-                <img src={itemDetalle?.imagen} id="#producto" alt="productos" />
+                <img src={itemDetalle?.imagen} alt="productos" />
             </div>
 
             <div className="itemBodyContainer">
-
-                <h2>{itemDetalle?.nombre}</h2><br />
+                <img src={Logo} id="logo" />
+                <h1>{itemDetalle?.nombre}</h1><br />
                 <h4>{itemDetalle?.descripcion} </h4>
-
-                <br />
-                <h4>Precio:  {itemDetalle?.precio}</h4>
                 <br />
                 <h5> Stock disponibe: {itemDetalle?.stock} unidades</h5>
-                <br />
+                <h5>Precio:  {itemDetalle?.precio}</h5>
+                <br /><br />
                 {
                     cantidadProducto ?
                         <>

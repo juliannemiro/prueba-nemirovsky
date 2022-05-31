@@ -15,7 +15,7 @@ const ItemDetailContainer = () => {
     const getItemDetalle = async (id) => {
         try {
             const document = doc(db, "items", id);
-            const response = await getDoc(document); // no me anda con await getDoc(document) 
+            const response = await getDoc(document);
             console.log(response)
             const result = { id: response.id, ...response.data() }
             console.log(result)

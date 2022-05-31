@@ -1,10 +1,27 @@
 
 .formContainer{
   display: flex;
-  align-items: center;
   justify-content: center;
+  color: #D7DBDD;
+  margin: 0 auto;
+  margin-top: 20px;
+  min-height: 800px;
 }
 
-.formContainer h1, h2, h3, h4, hr {
-    color: #D7DBDD;
+.input-group-prepend{
+  border: 1px solid  #D7DBDD;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.compraRechazada { 
+  background-color: #f44336;
+  color: white;
+  transition: 0.3s;
+}
+
+.compraConfirmada{
+  background-color: #00cc66;
+  color: white;
+  transition: 0.3s;
 }
