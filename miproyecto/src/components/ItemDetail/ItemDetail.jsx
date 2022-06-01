@@ -32,8 +32,9 @@ const ItemDetail = ({ itemDetalle }) => {
                 <h1>{itemDetalle?.nombre}</h1><br />
                 <h4>{itemDetalle?.descripcion} </h4>
                 <br />
-                <h5> Stock disponibe: {itemDetalle?.stock} unidades</h5>
-                <h5>Precio:  {itemDetalle?.precio}</h5>
+                <h5>Precio:  ${itemDetalle?.precio}</h5> <br/>
+                <h6> Stock disponibe: {itemDetalle?.stock} unidades</h6>
+
                 <br /><br />
                 {
                     cantidadProducto ?
