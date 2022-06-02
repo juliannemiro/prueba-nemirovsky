@@ -21,4 +21,4 @@ Abrir la consola en la carpeta que desea descargar el proyecto e ingresar los si
 
 ## Demo 
 
-[![TodoCamisetas](https://yt-embed.herokuapp.com/embed?v=nGxJ8rl5p20)](https://www.youtube.com/watch?v=nGxJ8rl5p20)
+[![TodoCamisetas](https://yt-embed.herokuapp.com/embed?v=nGxJ8rl5p20)](https://youtu.be/ZrBNp-4apyU)
