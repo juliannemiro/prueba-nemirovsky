@@ -1,5 +1,5 @@
 # Proyecto e-commerce - Julian Nemirovsky
-Primera Entrega del Proyecto Final
+Entrega del Proyecto Final
 React Js | Comisión 31150
 
 ## Instalación Git Clone
