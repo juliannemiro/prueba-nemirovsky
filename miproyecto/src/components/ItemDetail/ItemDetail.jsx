@@ -32,9 +32,8 @@ const ItemDetail = ({ itemDetalle }) => {
                 <h1>{itemDetalle?.nombre}</h1><br />
                 <h4>{itemDetalle?.descripcion} </h4>
                 <br />
-                <h5>Precio:  ${itemDetalle?.precio}</h5> <br/>
+                <h5>Precio:  ${itemDetalle?.precio}</h5> <br />
                 <h6> Stock disponibe: {itemDetalle?.stock} unidades</h6>
-
                 <br /><br />
                 {
                     cantidadProducto ?
@@ -45,17 +44,7 @@ const ItemDetail = ({ itemDetalle }) => {
                         </>
                         :
                         <>
-                            <select className="form-select " style={{ "width": "100px" }} placeholder="Talle" >
-                                <option> Talle</option>
-                                <option value="1">XS</option>
-                                <option value="2">S</option>
-                                <option value="3">M</option>
-                                <option value="4">L</option>
-                                <option value="5">XL</option>
-                                <option value="6">XXL</option>
-                            </select>
-                            <br />
-                            <ItemCount stock={itemDetalle?.stock} inicial={1} onAdd={addHandler} />
+                                    <ItemCount stock={itemDetalle?.stock} inicial={1} onAdd={addHandler} />
                         </>
                 }
 
