@@ -10,7 +10,7 @@ const CartWidget = () => {
         <div className='cartContainer'>
             {totalAcumItem() > 0 &&
                 <>
-                    <img src={Cart} id="cart" />
+                    <img src={Cart} id="cart" /> 
                     <span className='acumItems'>{totalAcumItem()}</span>
                 </>
             }
